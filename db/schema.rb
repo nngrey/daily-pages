@@ -14,6 +14,9 @@ ActiveRecord::Schema.define(version: 20170816134443) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "tablefunc"
+  enable_extension "pgcrypto"
+  enable_extension "hstore"
 
   create_table "friendly_id_slugs", id: :serial, force: :cascade do |t|
     t.string "slug", null: false
