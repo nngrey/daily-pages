@@ -4,8 +4,8 @@ Rails.application.configure do
   config.middleware.use ExceptionNotification::Rack,
     email: {
       email_prefix: '[EXCEPTION] ',
-      sender_address: %{"Project Name" <replace@me.com>},
-      exception_recipients: %w{replace@me.com}
+      sender_address: %{"Daily Pagez" <nngrey@yahoo.com>},
+      exception_recipients: %w{nngrey@yahoo.com}
     }
 
   # Code is not reloaded between requests.
@@ -78,7 +78,7 @@ Rails.application.configure do
   # Use a real queuing backend for Active Job (and separate queues per
   # environment)
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "nathans_base_app_#{Rails.env}"
+  # config.active_job.queue_name_prefix = "daily_pagez_#{Rails.env}"
   config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.

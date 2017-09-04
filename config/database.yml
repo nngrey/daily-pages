@@ -10,11 +10,11 @@ default: &default
 
 development:
   <<: *default
-  database: nathans_base_app_development
+  database: daily_pagez_development
 
 test:
   <<: *default
-  database: nathans_base_app_test
+  database: daily_pagez_test
 
 production:
   <<: *default

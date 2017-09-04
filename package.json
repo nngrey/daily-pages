@@ -1,5 +1,5 @@
 {
-  "name": "nathans_base_app",
+  "name": "daily_pagez",
   "private": true,
   "dependencies": {
     "sweetalert2": "^6.6.9"

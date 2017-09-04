@@ -13,8 +13,8 @@ class ContactForm < MailForm::Base
   # in ActionMailer accepts.
   def headers
     {
-      subject: 'Project Name - Message sent via contact form',
-      to: 'replace@me.com',
+      subject: 'Daily Pagez - Message sent via contact form',
+      to: 'nngrey@yahoo.com',
       from: %("#{name}" <#{email}>)
     }
   end
